@@ -55,7 +55,7 @@ while vidas > 0:
         letras_adivinadas.append(letra) # Guardamos el acierto
     else:
         print("¡Fallaste!")
-        vidas -= 1  # Restamos vida
+        vidas -= 1  
 
     coincidencias = 0
     for letra_secreta in palabra:
